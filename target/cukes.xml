@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="118.226" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="F01_Home | user go to home page to show what about Swipy" name="user going to home" time="62.518">
+<system-out><![CDATA[
+When User open the Swipy homepage and getting the page URl to confirm.......passed
+Then User show what about Swipy introduction sentence.......................passed
+When User hover and click on our features...................................passed
+Then User show all Swipy features...........................................passed
+When User hover and click on For Corporations and subscribe.................passed
+Then Will navigate to Swipy web app "https://dashboard.swipy.pro/auth"......passed
+When User hover and click on For Individuals and download the app...........passed
+And User click on download for IOS to download Swipy........................passed
+Then user navigate to ios page "https://apps.apple.com/us/app/swipy-business-card/id6456405197" and opened in new tab.passed
+When User click on download for Android to download Swipy...................passed
+Then user navigate to android page "https://play.google.com/store/apps/details?id=com.swipy.swipy" and opened in new tab.passed
+When user hover and click our clients button................................passed
+Then Show our clients list..................................................passed
+When user hover and click about Us button...................................passed
+When user hover and click get in touch button...............................passed
+And User enter his data and click send button...............................passed
+Then User click on send button to send his data.............................passed
+When user hover and click on Get Started button to create corporate.........passed
+]]></system-out>
+</testcase>
+<testcase classname="F01_Home | user go to home page to show what about Swipy" name="user opens whatsapp link" time="12.079">
+<system-out><![CDATA[
+When user hover and click our contact us button.............................passed
+And user click on whatsapp icon.............................................passed
+Then user navigate to whatsapp page "https://api.whatsapp.com/send?phone=+201091808186" and opened in new tab.passed
+]]></system-out>
+</testcase>
+<testcase classname="F01_Home | user go to home page to show what about Swipy" name="user opens facebook link" time="10.533">
+<system-out><![CDATA[
+When user hover and click our contact us button.............................passed
+And user click on facebook icon.............................................passed
+Then user navigate to facebook page "https://www.facebook.com/people/Swipy/61550753597813/" and opened in new tab.passed
+]]></system-out>
+</testcase>
+<testcase classname="F01_Home | user go to home page to show what about Swipy" name="user opens instagram link" time="10.352">
+<system-out><![CDATA[
+When user hover and click our contact us button.............................passed
+And user click on instagram icon............................................passed
+Then user navigate to instagram page "https://www.instagram.com/getswipy/?igshid=YTQwZjQ0NmI0OA%3D%3D" and opened in new tab.passed
+]]></system-out>
+</testcase>
+<testcase classname="F01_Home | user go to home page to show what about Swipy" name="user opens linkedin link" time="10.606">
+<system-out><![CDATA[
+When user hover and click our contact us button.............................passed
+And user click on linkedin icon.............................................passed
+Then user navigate to linkedin page "https://www.linkedin.com/company/swipysolutions/" and opened in new tab.passed
+]]></system-out>
+</testcase>
+<testcase classname="F01_Home | user go to home page to show what about Swipy" name="user opens twitter link" time="11.867">
+<system-out><![CDATA[
+When user hover and click our contact us button.............................passed
+And user click on twitter  icon.............................................passed
+Then user navigate to twitter  page "https://twitter.com/SwipySolutions" and opened in new tab.passed
+]]></system-out>
+</testcase>
+</testsuite>
